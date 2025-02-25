@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(249, 243, 237, 0.788);
+    font-family: sans-serif;
+}
+form{
+    width: 40vw;
+    padding: 50px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input,button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30vw;
+    border: 1px solid black;
+}
+::placeholder{
+    font-size: 10px;
+}
+button{
+  background-color: blue;
+  border: none;
+  color: white;
+}
+h1{
+    color: black;
+}
